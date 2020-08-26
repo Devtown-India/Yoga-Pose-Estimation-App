@@ -135,7 +135,11 @@ function draw(){
 
 		
 	}
-	
+	else{
+		            $('#result').text("Pose Not Detected");
+
+	}
+ 
 }
 
 
