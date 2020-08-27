@@ -53,7 +53,6 @@ function onloadedmodel(){
 function getposes(poses){
 
 	if (state=='collect'){
-console.log(poses);
 	}
 	
 	posee=poses;
@@ -113,10 +112,8 @@ function draw(){
 			form_data.append('json_y'+i,y);
 			
 
-			ellipse(x,y,12,12);
 
 		}
-		 console.log(form_data);
         $.ajax({
             type: 'POST',
             url: '/',
