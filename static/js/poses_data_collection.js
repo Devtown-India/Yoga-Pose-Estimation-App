@@ -12,11 +12,11 @@ let w=0;
 let labels='a';
 function setup(){
 	createCanvas(640,800);
-	video= createVideo(['assets/a.mp4']);
+	video= createVideo(['../static/assets/a_final.mp4']);
   	video.hide(); 
-  	video1= createVideo(['assets/b.mp4']);
+  	video1= createVideo(['../static/assets/b.mp4']);
   	video1.hide(); 
-  	video2= createVideo(['assets/c.mp4']);
+  	video2= createVideo(['../static/assets/c.mp4']);
   	video2.hide(); 
   	
 
@@ -101,7 +101,7 @@ function draw(){
 		json[label]=input;
 		console.log(input.length);
 		w=w+1;
-		if(w==200 && labels=='a'){
+		if(w==400 && labels=='a'){
 			labels='b';
 			video.pause();
 			delete(posenet);
@@ -112,7 +112,7 @@ function draw(){
 			
 		
 		}
-		if(w==400 && labels=='b'){
+		if(w==800 && labels=='b'){
 
 			labels='c';
 			video1.pause();
@@ -122,7 +122,7 @@ function draw(){
 			video2.loop();
 			posenet2.on("pose",getposes);
 		}
-		if(w==600 && labels=='c'){
+		if(w==1200 && labels=='c'){
 
 			delete(posenet2);
 			delete(video2);
