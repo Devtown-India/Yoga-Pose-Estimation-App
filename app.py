@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__,static_folder='static',template_folder='templates')
 
-model=pickle.load(open('model_training/model.pkl','rb+'))
+model=pickle.load(open('model_training/model_1200.pkl','rb+'))
 
 @app.route('/b.mp4',methods=['POST','GET'])
 def return_files():
