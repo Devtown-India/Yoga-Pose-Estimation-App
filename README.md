@@ -22,7 +22,12 @@
   * [License](#license)
   * [Contact](#contact-)
 
-# Bug / Feature Request
+## Motivation:-
+
+This project is done as a part of my internship in ShapeAI in the role of Machine Learning Engineer Intern. This project can be extended to a perfect Yoga Trainer to track the poses and retain fitness using AI.
+
+
+## Bug / Feature Request
 If you find a bug (gave undesired results), kindly open an issue [here](https://github.com/ShapeAI/Yoga-Pose-Estimation-App/issues/new/choose) by including your search query and the expected result.
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/ShapeAI/Yoga-Pose-Estimation-App/issues/new/). Please include sample queries and their corresponding results.
