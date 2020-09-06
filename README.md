@@ -1,1 +1,1 @@
-# Yoga-Pose-Estimation-App
+# Yoga Pose Estimation App
