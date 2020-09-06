@@ -22,6 +22,12 @@
   * [License](#license)
   * [Contact](#contact-)
 
+# Bug / Feature Request
+If you find a bug (gave undesired results), kindly open an issue [here](https://github.com/ShapeAI/Yoga-Pose-Estimation-App/issues/new/choose) by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/ShapeAI/Yoga-Pose-Estimation-App/issues/new/). Please include sample queries and their corresponding results.
+
+
 
 ## License
 
