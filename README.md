@@ -22,6 +22,11 @@
   * [License](#license)
   * [Contact](#contact-)
 
+
+## Overview:-
+
+This is a Yoga Pose Estimation App which can be able to detect the yoga pose in real time by using posenet and KNN Classifier. Here the dataset used is custom data set which consists of 3 videos for representing 3 different postures. It is deployed in heroku. One Thing to be noted i.e this will work correctly for all mobile and edge devices.
+
 ## Motivation:-
 
 This project is done as a part of my internship in ShapeAI in the role of Machine Learning Engineer Intern. This project can be extended to a perfect Yoga Trainer to track the poses and retain fitness using AI.
