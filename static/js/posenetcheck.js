@@ -4,12 +4,12 @@ function setup(){
 	createCanvas(500,500);
 	video=createCapture(
 	{
-		     video: {
-        
-         facingMode: {
-          exact: "user"
-        }
-     }
+    video: {
+      facingMode: {
+        exact: "environment"
+      }
+    }
+
 
 	}
 		);
