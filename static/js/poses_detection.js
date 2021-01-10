@@ -18,7 +18,7 @@ function setup(){
 		     video: {
         
          facingMode: {
-          exact: "environment"
+          exact: "user"
         }
      }
 
